@@ -13,18 +13,22 @@ body {
 html {
   font-size: 18px;
   font-family: "Helvetica", serif;
+  color: white;
 }
+
+.container {
+  max-width: 960px;
+  margin: auto;
+}   /*this incorporate the header, sections and footer of the site*/
+
 
 
 /*logo/header*/
 .header {
   background-color: black;
-  color: white;
-  padding-left: 10%;
 }
 
 #header-container {
-  width: 960px;
   display: flex;
   align-items: center;
   padding-top: 0.66rem;
@@ -33,31 +37,26 @@ html {
 
 .header img {
   height: 1.5rem;
-  padding-left: 0.5rem;
   padding-right: 1rem;
 }
 
 
 
-/*Banner*/
-
+/*Motor Cycle Banner*/
 .banner {
   background-image: url("../images/moto.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   height: 25rem;
-  display: flex;
-  align-items: center;
-  padding-top: 9rem;
-  padding-left: 10%;
 }
 
 #banner-container {
   width: 20rem;
   background-color: black;
-  color: white;
-  padding: 2rem 3.5rem 2rem 3rem;
+  padding: 2rem 3rem;
+  position: relative;
+  top: 9rem;
 }
 
 .ad {
@@ -73,9 +72,36 @@ html {
 
 /*navigation links*/
 
+.nav-bar {
+  background-color: firebrick;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.nav-bar nav {
+  display: flex;
+  justify-content: space-between;
+}
 
 /*product grid*/
 
+.products {
+  display: flex;
+  justify-content: space-between;
+}
+
+.prod-title {
+  background-color: black;
+  text-align: center;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.prod-item {
+  display: flex;
+  flex-direction: column;
+  max-width: 30%;
+}
 
 /*Location/hours*/
 

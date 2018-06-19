@@ -10,7 +10,7 @@
 
     <!-- Header Section goes in here-->
     <header class="header">
-      <div id="header-container">
+      <div id="header-container" class="container">
         <img src="./resources/images/logo.png" alt="binoculars logo">
         <span>SECRET AGENT SUPPLY INC.</span>
       </div>
@@ -21,15 +21,17 @@
 
       <!--banner section with new arrival add-->
       <section class="banner">
-        <div id="banner-container">
-          <span class="ad">NEW ARRIVAL</span>
-          <h1 class="featured">SPORT BIKES AND MOTORCYCLES</h1>
+        <div class="container">
+          <div id="banner-container">
+            <span class="ad">NEW ARRIVAL</span>
+            <h1 class="featured">SPORT BIKES AND MOTORCYCLES</h1>
+          </div>
         </div>
       </section>
 
       <!--Navigation bar with navigation items-->
       <section class="nav-bar">
-        <nav>
+        <nav class="container">
           <span class="link">Eyewear</span>
           <span class="link">Apparel</span>
           <span class="link">Gadgets</span>
@@ -40,24 +42,27 @@
       </section>
 
       <!--Current product offerings-->
-      <section class="products">
+      <section class="products container">
 
-        <div class="pen">
+        <div class="prod-item">
+          <img class="pen prod-image" src="./resources/images/pen.png" alt="exploding pen">
           <span class="prod-title">Exploding Pen</span>
         </div>
 
-        <div class="watch">
+        <div class="prod-item">
+          <img class="watch prod-image" src="./resources/images/watch.png" alt="Spy Watch">
           <span class="prod-title">Cellular Watch</span>
         </div>
 
-        <div class="glasses">
+        <div class="prod-item">
+          <img class="glasses prod-image" src="./resources/images/glasses.png" alt="Spy sun glasses">
           <span class="prod-title">Thermal Glasses</span>
         </div>
 
       </section>
 
       <!--Location and hours section-->
-      <section class="location-section">
+      <section class="location-section container">
 
         <div class="location">
           <span class="loc">Location</span>
@@ -73,7 +78,7 @@
     </main>
 
     <!--copright info-->
-    <footer class="footer">
+    <footer class="footer container">
       <span>Copyright Secret Agent Supply Inc.</span>
     </footer>
 
