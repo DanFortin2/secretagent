@@ -180,3 +180,41 @@ html {
     display: inline;
   }
 }
+
+@media only screen and (max-width: 470px) {
+  .link {
+    display: none;
+  }
+  .nav-bar nav {
+    display: flex;
+    justify-content: center;
+  }
+  .prod-item {
+    width: 90%;
+  }
+  .second, .third {
+    display: none;
+  }
+  .products {
+    display: flex;
+    justify-content: center;
+  }
+  .location-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .location, .hours {
+    width: 90%;
+  }
+  .hours {
+    margin-top: 0;
+  }
+  .menu {
+    display: inline;
+  }
+  .footer-text {
+    text-align: center;
+  }
+}
