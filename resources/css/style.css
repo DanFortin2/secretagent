@@ -138,6 +138,7 @@ html {
 .coordinates,
 .time {
   color: black;
+  margin-top: .25rem;
 }
 
 /*footer*/
