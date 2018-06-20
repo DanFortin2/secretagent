@@ -72,6 +72,10 @@ html {
   justify-content: space-between;
 }
 
+.menu {
+  display: none;
+}
+
 /*product grid*/
 
 .products {
@@ -151,4 +155,28 @@ html {
 .footer-text {
   position: relative;
   top: 2rem;
+}
+
+/*MEDIA QUERY for smaller screens*/
+
+@media only screen and (max-width: 1024px) {
+  .prod-item {
+    width: 47%;
+  }
+  .third {
+    display: none;
+  }
+  .location, .hours {
+    width: 35%;
+  }
+  .link {
+    display: none;
+  }
+  .nav-bar nav {
+    display: flex;
+    justify-content: center;
+  }
+  .menu {
+    display: inline;
+  }
 }
