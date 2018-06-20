@@ -27,6 +27,7 @@ html {
 .header img {
   height: 1.5rem;
   padding-right: 1rem;
+  padding-left: 1rem;
 }
 
 
@@ -160,15 +161,8 @@ html {
 /*MEDIA QUERY for smaller screens*/
 
 @media only screen and (max-width: 1024px) {
-  .prod-item {
-    width: 47%;
-  }
-  .third {
-    display: none;
-  }
-  .location, .hours {
-    width: 35%;
-  }
+
+  /*navigation links*/
   .link {
     display: none;
   }
@@ -179,9 +173,24 @@ html {
   .menu {
     display: inline;
   }
+
+  /*product grid*/
+  .prod-item {
+    width: 47%;
+  }
+  .third {
+    display: none;
+  }
+
+  /*Location/hours*/
+  .location, .hours {
+    width: 35%;
+  }
 }
 
 @media only screen and (max-width: 470px) {
+
+  /*Motor Cycle Banner*/
   #banner-container {
     padding: 1rem 2rem;
     position: relative;
@@ -198,6 +207,8 @@ html {
   .banner {
     height: 15rem;
   }
+
+  /*navigation links*/
   .link {
     display: none;
   }
@@ -205,6 +216,8 @@ html {
     display: flex;
     justify-content: center;
   }
+
+  /*product grid*/
   .prod-item {
     width: 90%;
   }
@@ -214,7 +227,11 @@ html {
   .products {
     display: flex;
     justify-content: center;
+    padding-left: 4px;
+    padding-right: 4px;
   }
+
+  /*Location/hours*/
   .location-section {
     display: flex;
     flex-direction: column;
@@ -229,11 +246,13 @@ html {
     margin-bottom: 0;
   }
   .hours {
-    margin-top: 0.5rem;
+    margin-top: 1rem;
   }
   .menu {
     display: inline;
   }
+
+  /*footer*/
   .footer-text {
     text-align: center;
   }
