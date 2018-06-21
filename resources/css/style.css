@@ -11,7 +11,6 @@ html {
 }   /*this incorporate the header, sections and footer of the site*/
 
 
-
 /*logo/header*/
 .header {
   background-color: black;
@@ -75,7 +74,42 @@ html {
 
 .menu {
   display: none;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
 }
+
+a {
+  color: white;
+  text-decoration: none;
+  padding: 5px 5px;
+}
+
+a:hover {
+  background-color: darkred;
+}
+
+.dropdown{
+  width: 40%;
+  margin-left: 30%;
+  margin-right: 30%;
+  background-color: firebrick;
+  position: absolute;
+  z-index: 1;
+  top: 27.8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.drop-link {
+  display: block;
+  text-align: center;
+  padding-top: 0.5rem;
+  padding-bottom: 1rem;
+  display: none;
+}
+
 
 /*product grid*/
 
@@ -174,6 +208,10 @@ html {
     display: inline;
   }
 
+  .dropdown:hover .drop-link {
+    display: block;
+  }
+
   /*product grid*/
   .prod-item {
     width: 47%;
@@ -216,6 +254,11 @@ html {
     display: flex;
     justify-content: center;
   }
+
+  .dropdown{
+    top: 17.8rem;
+  }
+
 
   /*product grid*/
   .prod-item {
