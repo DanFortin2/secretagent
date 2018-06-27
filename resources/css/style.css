@@ -230,17 +230,22 @@ a:hover {
 
   /*Motor Cycle Banner*/
   #banner-container {
-    padding: 1rem 2rem;
+    padding: 1rem 0;
     position: relative;
     top: 10rem;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
   }
   .ad {
     font-size: 0.70rem;
     font-weight: bold;
+    padding-left: 2rem;
   }
   .featured {
     font-size: 0.90rem;
     font-weight: bold;
+    padding-left: 2rem;
   }
   .banner {
     height: 15rem;
